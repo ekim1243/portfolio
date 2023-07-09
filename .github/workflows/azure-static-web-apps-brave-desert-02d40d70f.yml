@@ -30,7 +30,9 @@ jobs:
           app_location: "/" # App source code path
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-
+        env: 
+          REACT_APP_MUSIC_PROJECT_URL: ${{ vars.REACT_APP_MUSIC_PROJECT_URL }}
+          REACT_APP_GOLF_PROJECT_URL: ${{ vars.REACT_APP_GOLF_PROJECT_URL }}
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
