@@ -14,8 +14,12 @@ const Showcase = () => {
   const golfTitleRef = useRef(null);
   const golfProcessRef = useRef(null);
   const golfDescriptionRef = useRef(null);
+  const musicUrl = process.env.REACT_APP_MUSIC_PROJECT_URL;
+  const golfUrl = process.env.REACT_APP_GOLF_PROJECT_URL;
 
   useEffect(() => {
+    console.log(process.env.REACT_APP_MUSIC_PROJECT_URL);
+    console.log(process.env.REACT_APP_GOLF_PROJECT_URL);
     gsap.from(musicTitleRef.current, {
       x: -200,
       opacity: 0,
@@ -97,7 +101,7 @@ const Showcase = () => {
         </h1>
         <div className="music-container">
           <a
-            href="http://localhost:3002/"
+            href={musicUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -153,7 +157,7 @@ const Showcase = () => {
             </p>
           </div>
           <a
-            href="http://localhost:3001/"
+            href={golfUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
