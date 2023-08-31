@@ -100,11 +100,7 @@ const Showcase = () => {
           Music Project
         </h1>
         <div className="music-container">
-          <a
-            href={musicUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={musicUrl} target="_blank" rel="noopener noreferrer">
             <img
               className="music-img"
               src={musicImage}
@@ -145,22 +141,17 @@ const Showcase = () => {
           <div ref={golfDescriptionRef} className="golf-description-container">
             <p className="golf-description">
               The Golf Project was the very first project I’ve created, aside
-              from the ones I completed through Codecademy. During the initial
-              two hours, I found myself staring at the screen, feeling lost and
-              uncertain about how to proceed. I started visiting different types
-              of websites and realized I needed to choose a theme and its
-              purpose. What kind of visual should I give the audiences? What is
-              the intended purpose of the website? Once I had clarity on these
-              aspects, getting started on the project seemed easier! (Until I
-              actually began to code and realized I underestimated the
-              difficulty of CSS…)
+              from the ones I completed through Codecademy. Combining my passion
+              for golf and curiosity for web development, I've created a project
+              using HTML, CSS, and JavaScript. With HTML, I've structured the
+              layout, CSS brings style and visual appeal, and JavaScript adds
+              dynamic event handling. As users interact with the elements, my
+              project replicates the engaging experience of golf websites,
+              providing insights into their construction while indulging my love
+              for the sport.
             </p>
           </div>
-          <a
-            href={golfUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={golfUrl} target="_blank" rel="noopener noreferrer">
             <img
               className="golf-img"
               src={golfImage}

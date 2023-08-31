@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
-  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
@@ -58,15 +57,6 @@ const Main = () => {
         <a href="https://github.com/ekim1243" target="_blank" rel="noreferrer">
           <li className="github">
             <FontAwesomeIcon icon={faGithub} className="icon" />
-          </li>
-        </a>
-        <a
-          href="https://www.instagram.com/eric1243/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <li className="instagram">
-            <FontAwesomeIcon icon={faInstagram} className="icon" />
           </li>
         </a>
       </ul>
