@@ -78,9 +78,9 @@ const About = () => {
           learning how to code in early 2023. At the moment, I have experience
           and knowledge in frontend engineering, but I believe it would be
           beneficial to gain proficiency in backend development as well.
-          Regarding my current project, I am assisting a friend's brand in
-          building a website utilizing technologies such as GraphQL, Shopify
-          Hydrogen, and Tailwind.
+          Regarding my current project, I am integrating the Spotiy API and
+          OpenAi's Dall-E 2 API to create an image generator for the user's
+          music playlist .
         </p>
       </section>
     </div>
