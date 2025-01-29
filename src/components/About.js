@@ -60,17 +60,7 @@ const About = () => {
       <img src={ProfilePic} alt="Profile" />
       <section className="animate-section">
         <p className="description1">
-          Through my journey on Codecademy, I acquired a solid foundation in
-          frontend development, familiarizing myself with the tools and the
-          development environment. I soon realized that learning is an ongoing
-          process and that I needed to transition from learning to creating
-          projects. Working on projects is how I enhanced my abilities and get
-          the feel of becoming a fronted-developer. I started learning more by
-          encountering problems, then researching in order to find the solution.
-          Personally, the most thrilling part about being a software engineer is
-          the fact that I’m attaining knowledge every time I encounter a problem
-          and solve it. Considering numerous problems I'll face in the future,
-          I'm excited by how much more there is to learn.{" "}
+         I created this project because of my love for music and animation. I wanted to build an interactive website that combined both of these passions. It was a way for me to explore how I could bring those interests to life through coding, while also challenging myself to learn new skills and problem-solving techniques along the way.{" "}
         </p>
         <p className="description2">
           Despite my college degree being unrelated to computer science, my
