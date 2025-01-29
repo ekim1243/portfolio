@@ -63,7 +63,7 @@ const About = () => {
          I created this project because of my love for music and animation. I wanted to build an interactive website that combined both of these passions. It was a way for me to explore how I could bring those interests to life through coding, while also challenging myself to learn how to code.{" "}
         </p>
         <p className="description2">
-          Despite having no formal background in computer science, my curiosity and love for creativity, design, and technology led me to start learning to code in early 2023. I built this portfolio as a fun project to explore what I could create, and it’s been an incredibly rewarding journey. Every little step, from solving problems to seeing everything come together has truly been exciting.
+         
         </p>
       </section>
     </div>
