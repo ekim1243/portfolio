@@ -60,17 +60,10 @@ const About = () => {
       <img src={ProfilePic} alt="Profile" />
       <section className="animate-section">
         <p className="description1">
-         I created this project because of my love for music and animation. I wanted to build an interactive website that combined both of these passions. It was a way for me to explore how I could bring those interests to life through coding, while also challenging myself to learn new skills and problem-solving techniques along the way.{" "}
+         I created this project because of my love for music and animation. I wanted to build an interactive website that combined both of these passions. It was a way for me to explore how I could bring those interests to life through coding, while also challenging myself to learn how to code.{" "}
         </p>
         <p className="description2">
-          Despite my college degree being unrelated to computer science, my
-          passion for creativity, design, and computers has drove me to start
-          learning how to code in early 2023. At the moment, I have experience
-          and knowledge in frontend engineering, but I believe it would be
-          beneficial to gain proficiency in backend development as well.
-          Regarding my current project, I am integrating the Spotiy API and
-          OpenAi's Dall-E 2 API to create an image generator for the user's
-          music playlist .
+          Despite having no formal background in computer science, my curiosity and love for creativity, design, and technology led me to start learning to code in early 2023. I built this portfolio as a fun project to explore what I could create, and it’s been an incredibly rewarding journey. Every little step, from solving problems to seeing everything come together has truly been exciting.
         </p>
       </section>
     </div>
