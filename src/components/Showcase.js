@@ -122,10 +122,7 @@ const Showcase = () => {
               animations.
             </p>
             <p className="music-description">
-              As my project grew more complex, I realized the significance of
-              using effective data structures. Understanding that as the project
-              started to scale, it was crucial to implement better data
-              structures in order to write cleaner code.
+            
             </p>
           </div>
         </div>
@@ -141,8 +138,7 @@ const Showcase = () => {
           <div ref={golfDescriptionRef} className="golf-description-container">
             <p className="golf-description">
               The Golf Project was the very first project I’ve created, aside
-              from the ones I completed through Codecademy. Combining my passion
-              for golf and curiosity for web development, I've created a project
+              from the ones I completed through Codecademy. I've created the project
               using HTML, CSS, and JavaScript. With HTML, I've structured the
               layout, CSS brings style and visual appeal, and JavaScript adds
               dynamic event handling. As users interact with the elements, my
