@@ -9,24 +9,14 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Main = () => {
   const letters = [
-    "S",
+    "F",
     "o",
-    "f",
-    "t",
-    "w",
-    "a",
     "r",
-    "e",
-    "-",
-    "D",
-    "e",
-    "v",
-    "e",
-    "l",
-    "o",
-    "p",
-    "e",
-    "r",
+    " ",
+    "F",
+    "u",
+    "n",
+    "!",
   ];
 
   const renderLetters = () => {
